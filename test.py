@@ -13,3 +13,4 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message)
+# 测试版本，实测key无法用，报402错误
